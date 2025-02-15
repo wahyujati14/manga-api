@@ -1,18 +1,17 @@
+const puppeteer = require("puppeteer-extra");
+// const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+
 const express = require("express");
 const fs = require("fs");
-const puppeteer = require("puppeteer-extra");
-const StealthPlugin = require("puppeteer-extra-plugin-stealth");
-
+const cors = require("cors");
 const scrapeChapterImages = require("./scrapeChapter");
-
-const stealth = StealthPlugin();
-puppeteer.use(stealth);
 
 const app = express();
 const PORT = 3000;
 
-// Konfigurasi agar Vercel bisa mengenali Express
-module.exports = app;
+// Middleware
+app.use(cors());
+app.use(express.json());
 
 // Fungsi Scraping Data
 app.get("/api/scrape", async (req, res) => {
@@ -142,3 +141,6 @@ if (require.main === module) {
     console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
   });
 }
+
+// Konfigurasi agar Vercel bisa mengenali Express
+module.exports = app;

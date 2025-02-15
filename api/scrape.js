@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
-const scrapeChapterImages = require("api/scrapeChapter");
 const fs = require("fs");
 
 puppeteer.use(StealthPlugin());
@@ -116,23 +115,6 @@ const scrapeKomik = async () => {
 };
 // Jalankan scraping pertama kali
 scrapeKomik();
-
-app.get("/api/chapter", async (req, res) => {
-  const { url } = req.query;
-
-  if (!url) {
-    return res.status(400).json({ error: "URL parameter is required!" });
-  }
-
-  console.log(`🔄 Fetching chapter images for: ${url}`);
-
-  try {
-    const chapterData = await scrapeChapterImages(url);
-    res.json(chapterData);
-  } catch (error) {
-    res.status(500).json({ error: "Gagal mengambil data chapter!" });
-  }
-});
 
 let scrapeCount = 0; // Hitungan eksekusi scraping
 const maxScrape = 3; // Maksimal scraping sebelum jeda
