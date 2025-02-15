@@ -6,6 +6,8 @@ const fs = require("fs");
 const cors = require("cors");
 const scrapeChapterImages = require("./scrapeChapter");
 
+const path = require("path");
+
 const app = express();
 const PORT = 3000;
 
@@ -26,7 +28,7 @@ app.get("/api/scrape", async (req, res) => {
 
 // Endpoint untuk mengambil daftar komik
 app.get("/api/komik", (req, res) => {
-  const dataFile = "public/komik.json";
+  const dataFile = path.join(__dirname, "../public/komik.json");
 
   if (!fs.existsSync(dataFile)) {
     return res.status(404).json({ error: "Data komik belum tersedia!" });
