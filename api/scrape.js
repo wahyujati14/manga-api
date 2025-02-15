@@ -4,8 +4,8 @@ const fs = require("fs");
 
 puppeteer.use(StealthPlugin());
 
-const dataFile = "data/komik.json";
-const lastPageFile = "data/last_page.json";
+const dataFile = "public/komik.json";
+const lastPageFile = "public/last_page.json";
 
 // Fungsi untuk membaca halaman terakhir yang diproses
 const readLastPage = () => {
@@ -44,7 +44,7 @@ const readPreviousData = () => {
       const data = fs.readFileSync(dataFile, "utf-8").trim(); // Hapus spasi ekstra
       return data ? JSON.parse(data) : []; // Cegah JSON.parse error
     } catch (error) {
-      console.error("❌ Error membaca data/komik.json, reset ke []...");
+      console.error("❌ Error membaca public/komik.json, reset ke []...");
       return [];
     }
   }
@@ -108,7 +108,7 @@ const scrapeKomik = async () => {
       dataFile,
       JSON.stringify([...previousData, ...newKomik], null, 2) // Tambah di akhir agar urut
     );
-    console.log("📂 Data diperbarui di data/komik.json");
+    console.log("📂 Data diperbarui di public/komik.json");
   } else {
     console.log("🔄 Tidak ada komik baru.");
   }

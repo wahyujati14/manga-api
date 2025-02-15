@@ -2,5 +2,5 @@
   "version": 2,
   "builds": [{ "src": "api/server.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/api/.*", "dest": "api/server.js" }],
-  "includeFiles": ["data/komik.json", "data/last_page.json"]
+  "includeFiles": ["public/komik.json", "public/last_page.json"]
 }

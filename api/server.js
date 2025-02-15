@@ -26,7 +26,7 @@ app.get("/api/scrape", async (req, res) => {
 
 // Endpoint untuk mengambil daftar komik
 app.get("/api/komik", (req, res) => {
-  const dataFile = "data/komik.json";
+  const dataFile = "public/komik.json";
 
   if (!fs.existsSync(dataFile)) {
     return res.status(404).json({ error: "Data komik belum tersedia!" });
