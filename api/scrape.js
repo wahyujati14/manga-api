@@ -1,8 +1,5 @@
-const puppeteer = require("puppeteer-extra");
-const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+const puppeteer = require("puppeteer");
 const fs = require("fs");
-
-puppeteer.use(StealthPlugin());
 
 const dataFile = "public/komik.json";
 const lastPageFile = "public/last_page.json";
@@ -62,8 +59,12 @@ const scrapeKomik = async () => {
   console.log(`📌 Mulai scraping dari halaman ${lastPage}...`);
 
   for (let i = lastPage; i < lastPage + totalPages; i++) {
-    const url = `https://komikcast02.com/daftar-komik/page/${i}/?orderby=update`;
-    console.log(`🔄 Scraping halaman ${i}...`);
+    const url =
+      i === 1
+        ? "https://komikcast02.com/daftar-komik/"
+        : `https://komikcast02.com/daftar-komik/page/${i}/`;
+
+    console.log(`🔄 Scraping halaman ${i}: ${url}`);
 
     try {
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 10000 });
@@ -113,6 +114,7 @@ const scrapeKomik = async () => {
     console.log("🔄 Tidak ada komik baru.");
   }
 };
+
 // Jalankan scraping pertama kali
 scrapeKomik();
 

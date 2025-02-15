@@ -1,15 +1,11 @@
-const puppeteer = require("puppeteer-extra");
-const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+const puppeteer = require("puppeteer");
 const fs = require("fs").promises;
-
-puppeteer.use(StealthPlugin());
 
 const scrapeChapterImages = async (url) => {
   console.log(`🚀 Scraping chapter images from ${url}`);
   let browser = null;
 
   try {
-    // Launch browser with more aggressive options
     browser = await puppeteer.launch({
       headless: true,
       args: [
@@ -44,7 +40,7 @@ const scrapeChapterImages = async (url) => {
 
     // Set additional page configurations
     await page.setViewport({ width: 1920, height: 1080 });
-    await page.setDefaultNavigationTimeout(120000); // Increase to 120 seconds
+    await page.setDefaultNavigationTimeout(120000);
     await page.setDefaultTimeout(120000);
 
     // Intercept requests to block unnecessary resources
@@ -77,7 +73,7 @@ const scrapeChapterImages = async (url) => {
         console.log(`Attempt ${retryCount + 1} failed: ${error.message}`);
         retryCount++;
         if (retryCount === maxRetries) throw error;
-        await page.waitForTimeout(5000); // Wait 5 seconds before retry
+        await page.waitForTimeout(5000);
       }
     }
 
@@ -116,7 +112,6 @@ const scrapeChapterImages = async (url) => {
       throw new Error("No images found with any of the known selectors");
     }
 
-    // Log success
     console.log(`✅ Successfully found ${images.length} images`);
 
     await browser.close();

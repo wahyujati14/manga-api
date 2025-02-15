@@ -1,11 +1,11 @@
-const puppeteer = require("puppeteer-extra");
-const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+// Ganti dengan
+const puppeteer = require("puppeteer");
 
+// Sisanya tetap
 const express = require("express");
 const fs = require("fs");
 const cors = require("cors");
 const scrapeChapterImages = require("./scrapeChapter");
-
 const path = require("path");
 
 const app = express();
