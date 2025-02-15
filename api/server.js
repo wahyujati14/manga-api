@@ -55,14 +55,21 @@ app.get("/api/komik/detail", async (req, res) => {
   try {
     browser = await puppeteer.launch({
       headless: "new",
-      executablePath: await chromium.executablePath(), // ✅ Gunakan Chromium yang kompatibel dengan Vercel
-      args: chromium.args,
+      executablePath: await chromium.executablePath(),
+      args: [
+        ...chromium.args,
+        "--disable-gpu",
+        "--disable-software-rasterizer",
+        "--disable-dev-shm-usage",
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+      ],
     });
 
     const page = await browser.newPage();
 
     await page.goto(url, {
-      waitUntil: "networkidle2",
+      waitUntil: "domcontentloaded",
       timeout: 60000,
     });
 
