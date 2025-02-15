@@ -1,5 +1,6 @@
 // Ganti dengan
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-core");
+const chromium = require("@sparticuz/chromium");
 
 // Sisanya tetap
 const express = require("express");
@@ -53,8 +54,9 @@ app.get("/api/komik/detail", async (req, res) => {
   let browser;
   try {
     browser = await puppeteer.launch({
-      headless: true,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      headless: "new",
+      executablePath: await chromium.executablePath(), // ✅ Gunakan Chromium yang kompatibel dengan Vercel
+      args: chromium.args,
     });
 
     const page = await browser.newPage();
