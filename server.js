@@ -8,6 +8,7 @@ const cors = require("cors");
 puppeteer.use(StealthPlugin()); // Aktifkan stealth mode
 
 const fs = require("fs");
+const scrapeKomik = require("./api/scrape");
 const scrapeChapterImages = require("./api/scrapeChapter");
 const path = require("path");
 
