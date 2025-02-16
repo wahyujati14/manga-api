@@ -1,10 +1,12 @@
 // PUPPETER
-const puppeteer = require("puppeteer-core");
+const puppeteer = require("puppeteer-extra"); // Gunakan puppeteer-extra
+const StealthPlugin = require("puppeteer-extra-plugin-stealth"); // Stealth plugin
 const chromium = require("@sparticuz/chromium");
-
 const express = require("express");
-const fs = require("fs");
 const cors = require("cors");
+
+puppeteer.use(StealthPlugin()); // Aktifkan stealth mode
+
 const scrapeChapterImages = require("./api/scrapeChapter");
 const path = require("path");
 
@@ -55,33 +57,37 @@ app.get("/api/komik/detail", async (req, res) => {
     browser = await puppeteer.launch({
       headless: "new",
       executablePath: await chromium.executablePath(),
-      args: [...chromium.args, "--no-sandbox"],
+      args: [
+        ...chromium.args,
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+      ],
       defaultViewport: { width: 1366, height: 768 },
     });
 
     const page = await browser.newPage();
 
-    // Increase timeouts
+    // Set User-Agent agar tidak terdeteksi sebagai bot
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    );
+
+    // Perbesar timeout untuk mencegah error navigasi
     await page.setDefaultNavigationTimeout(120000);
     await page.setDefaultTimeout(60000);
 
-    // Wait until network is idle
-    await page.goto(url, {
-      waitUntil: ["domcontentloaded", "networkidle0"],
-      timeout: 120000,
-    });
+    // Buka halaman dengan metode yang lebih cepat
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 120000 });
 
-    // Wait for the main container
+    // Tunggu elemen utama muncul
     await page.waitForSelector(".komik_info", { timeout: 30000 });
 
     const detail = await page.evaluate(() => {
-      // Helper function untuk extract text dengan safety checks
-      const getText = (selector, parent = document) => {
-        const element = parent.querySelector(selector);
-        return element ? element.innerText.trim() : "";
-      };
+      const getText = (selector, parent = document) =>
+        parent.querySelector(selector)?.innerText?.trim() || "";
 
-      // Helper untuk extract specific info dari meta content
       const getMetaInfo = (label) => {
         const elements = document.querySelectorAll(".komik_info-content-info");
         for (const el of elements) {
@@ -92,14 +98,12 @@ app.get("/api/komik/detail", async (req, res) => {
         return "";
       };
 
-      // Get genres dengan safety check
       const genres = Array.from(
         document.querySelectorAll(".komik_info-content-genre .genre-item")
       )
         .map((el) => el.textContent.trim())
         .filter(Boolean);
 
-      // Get chapters dengan safety check
       const chapters = Array.from(
         document.querySelectorAll(".komik_info-chapters-item")
       )
