@@ -69,7 +69,7 @@ app.get("/api/komik/detail", async (req, res) => {
     const page = await browser.newPage();
 
     await page.goto(url, {
-      waitUntil: "domcontentloaded",
+      waitUntil: "networkidle2",
       timeout: 60000,
     });
 
