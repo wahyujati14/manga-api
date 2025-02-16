@@ -47,140 +47,98 @@ app.get("/api/komik", (req, res) => {
 app.get("/api/komik/detail", async (req, res) => {
   const { url } = req.query;
   if (!url) return res.status(400).json({ error: "URL komik diperlukan!" });
-  console.log(`🔍 Scraping detail komik: ${url}`);
 
+  console.log(`🔍 Scraping detail komik: ${url}`);
   let browser;
+
   try {
     browser = await puppeteer.launch({
       headless: "new",
       executablePath: await chromium.executablePath(),
-      args: [
-        ...chromium.args,
-        "--disable-gpu",
-        "--disable-software-rasterizer",
-        "--disable-dev-shm-usage",
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-      ],
-      defaultViewport: {
-        width: 1920,
-        height: 1080,
-      },
+      args: [...chromium.args, "--no-sandbox"],
+      defaultViewport: { width: 1366, height: 768 },
     });
 
     const page = await browser.newPage();
 
-    // Set timeout lebih lama untuk navigasi
-    page.setDefaultNavigationTimeout(90000);
+    // Increase timeouts
+    await page.setDefaultNavigationTimeout(120000);
+    await page.setDefaultTimeout(60000);
 
-    // Tambahkan error handler untuk page
-    page.on("error", (err) => {
-      console.error("Page error:", err);
-    });
-
-    // Tunggu sampai navigasi selesai
+    // Wait until network is idle
     await page.goto(url, {
-      waitUntil: ["networkidle0", "domcontentloaded"],
-      timeout: 90000,
+      waitUntil: ["domcontentloaded", "networkidle0"],
+      timeout: 120000,
     });
 
-    // Tambahkan delay kecil setelah navigasi
-    await page.waitForTimeout(2000);
-
-    console.log("✅ Halaman berhasil dimuat");
-
-    // Tunggu selector dengan retry
-    const maxRetries = 3;
-    let retryCount = 0;
-
-    while (retryCount < maxRetries) {
-      try {
-        await page.waitForSelector(".komik_info-body", {
-          timeout: 15000,
-        });
-        break;
-      } catch (error) {
-        retryCount++;
-        if (retryCount === maxRetries) throw error;
-        await page.waitForTimeout(2000);
-      }
-    }
+    // Wait for the main container
+    await page.waitForSelector(".komik_info", { timeout: 30000 });
 
     const detail = await page.evaluate(() => {
-      const safeQuerySelector = (
-        selector,
-        property = "innerText",
-        defaultValue = "Unknown"
-      ) => {
-        const element = document.querySelector(selector);
-        if (!element) return defaultValue;
-        return property === "innerText"
-          ? element.innerText.trim()
-          : element[property];
+      // Helper function untuk extract text dengan safety checks
+      const getText = (selector, parent = document) => {
+        const element = parent.querySelector(selector);
+        return element ? element.innerText.trim() : "";
       };
 
+      // Helper untuk extract specific info dari meta content
+      const getMetaInfo = (label) => {
+        const elements = document.querySelectorAll(".komik_info-content-info");
+        for (const el of elements) {
+          if (el.textContent.includes(label)) {
+            return el.textContent.split(":")[1]?.trim() || "";
+          }
+        }
+        return "";
+      };
+
+      // Get genres dengan safety check
+      const genres = Array.from(
+        document.querySelectorAll(".komik_info-content-genre .genre-item")
+      )
+        .map((el) => el.textContent.trim())
+        .filter(Boolean);
+
+      // Get chapters dengan safety check
+      const chapters = Array.from(
+        document.querySelectorAll(".komik_info-chapters-item")
+      )
+        .map((item) => ({
+          chapter: getText(".chapter-link-item", item),
+          url: item.querySelector(".chapter-link-item")?.href || "",
+          timeAgo: getText(".chapter-link-time", item),
+        }))
+        .filter((chapter) => chapter.chapter && chapter.url);
+
       return {
-        title: safeQuerySelector(".komik_info-content-body-title"),
-        synopsis: safeQuerySelector(
-          ".komik_info-description-sinopsis p",
-          "innerText",
-          "Tidak ada sinopsis"
-        ),
-        genres: Array.from(
-          document.querySelectorAll(".komik_info-content-genre .genre-item") ||
-            []
-        ).map((el) => el.innerText.trim()),
-        author: safeQuerySelector(".komik_info-content-meta span:nth-child(2)")
-          ?.replace("Author:", "")
-          ?.trim(),
-        status: safeQuerySelector(".komik_info-content-meta span:nth-child(3)")
-          ?.replace("Status:", "")
-          ?.trim(),
-        type: safeQuerySelector(".komik_info-content-info-type a"),
-        totalChapter: safeQuerySelector(
-          ".komik_info-content-meta span:nth-child(5)"
-        )
-          ?.replace("Total Chapter:", "")
-          ?.trim(),
-        lastUpdated: safeQuerySelector("time", "datetime"),
-        chapters: Array.from(
-          document.querySelectorAll(".komik_info-chapters-item") || []
-        )
-          .map((item) => ({
-            chapter: safeQuerySelector(
-              ".chapter-link-item",
-              "innerText",
-              null,
-              item
-            ),
-            url: item.querySelector(".chapter-link-item")?.href || "",
-            timeAgo: safeQuerySelector(
-              ".chapter-link-time",
-              "innerText",
-              null,
-              item
-            ),
-          }))
-          .filter((chapter) => chapter.chapter && chapter.url),
+        title: getText(".komik_info-content-body-title"),
+        nativeTitle: getText(".komik_info-content-native"),
+        synopsis: getText(".komik_info-description-sinopsis p"),
+        genres,
+        author: getMetaInfo("Author"),
+        status: getMetaInfo("Status"),
+        type: getText(".komik_info-content-info-type a"),
+        totalChapter: getMetaInfo("Total Chapter"),
+        lastUpdated:
+          document.querySelector("time")?.getAttribute("datetime") || "",
+        releaseYear: getMetaInfo("Released"),
+        thumbnail:
+          document.querySelector(".komik_info-cover-image img")?.src || "",
+        chapters,
       };
     });
 
-    console.log("✅ Detail berhasil diambil:", detail);
+    console.log("✅ Detail berhasil diambil");
     res.json(detail);
   } catch (error) {
-    console.error("❌ Gagal mengambil detail:", error.message);
+    console.error("❌ Gagal mengambil detail:", error);
     res.status(500).json({
       error: "Gagal mengambil detail komik!",
       message: error.message,
-      stack: process.env.NODE_ENV === "development" ? error.stack : undefined,
     });
   } finally {
     if (browser) {
-      try {
-        await browser.close();
-      } catch (error) {
-        console.error("Error closing browser:", error);
-      }
+      await browser.close().catch(console.error);
     }
   }
 });
