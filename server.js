@@ -6,7 +6,7 @@ const chromium = require("@sparticuz/chromium");
 const express = require("express");
 const fs = require("fs");
 const cors = require("cors");
-const scrapeChapterImages = require("./scrapeChapter");
+const scrapeChapterImages = require("./api/scrapeChapter");
 const path = require("path");
 
 const app = express();

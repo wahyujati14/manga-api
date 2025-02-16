@@ -2,9 +2,9 @@
   "name": "web-scraping",
   "version": "1.0.0",
   "description": "API MANGA",
-  "main": "api/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "pm2 start api/server.js --name 'server'",
+    "start": "pm2 start server.js --name 'server'",
     "scrape": "pm2 start api/scrape.js --name 'scrape'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
