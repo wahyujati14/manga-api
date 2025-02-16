@@ -30,6 +30,10 @@ app.use(express.json());
 //   }
 // });
 
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public/index.html"));
+});
+
 // Endpoint untuk mengambil daftar komik
 app.get("/api/komik", (req, res) => {
   const dataFile = path.join(__dirname, "public/komik.json");

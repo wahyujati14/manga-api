@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manga API</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1a1a1a;
+        color: white;
+        text-align: center;
+        padding: 50px;
+      }
+      a {
+        color: #4fa3d1;
+        text-decoration: none;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #222;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Manga API</h1>
+      <p>Get details of your favorite manga with our API.</p>
+      <p><strong>Available Endpoints:</strong></p>
+      <ul>
+        <li>
+          <a href="/api/komik/detail?url=https://example.com"
+            >/api/komik/detail?url=...</a
+          >
+          - Get manga details
+        </li>
+        <li><a href="/api/scrape">/api/scrape</a> - Trigger manga scraping</li>
+      </ul>
+    </div>
+  </body>
+</html>
