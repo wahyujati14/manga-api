@@ -8,7 +8,7 @@ const cors = require("cors");
 puppeteer.use(StealthPlugin()); // Aktifkan stealth mode
 
 const fs = require("fs");
-const scrapeKomik = require("./api/scrape");
+// const scrapeKomik = require("./api/scrape");
 const scrapeChapterImages = require("./api/scrapeChapter");
 const path = require("path");
 
@@ -19,16 +19,16 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Fungsi Scraping Data
-app.get("/api/scrape", async (req, res) => {
-  console.log("🔄 Scraping dimulai melalui API...");
-  try {
-    await scrapeKomik();
-    res.json({ message: "Scraping berhasil!" });
-  } catch (error) {
-    res.status(500).json({ error: "Gagal melakukan scraping!" });
-  }
-});
+// // Fungsi Scraping Data
+// app.get("/api/scrape", async (req, res) => {
+//   console.log("🔄 Scraping dimulai melalui API...");
+//   try {
+//     await scrapeKomik();
+//     res.json({ message: "Scraping berhasil!" });
+//   } catch (error) {
+//     res.status(500).json({ error: "Gagal melakukan scraping!" });
+//   }
+// });
 
 // Endpoint untuk mengambil daftar komik
 app.get("/api/komik", (req, res) => {
