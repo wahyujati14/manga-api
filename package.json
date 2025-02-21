@@ -1,0 +1,28 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "API MANGA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "pm2 start api/scrape.js --name 'scrape'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@sparticuz/chromium": "^132.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.2.0",
+    "puppeteer-core": "^24.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "pm2": "^5.4.3"
+  }
+}
