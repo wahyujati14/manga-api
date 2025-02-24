@@ -1,0 +1,28 @@
+1. Fix masalah scroll di page manga reader supaya saat di zoom in atau zoom out tidak langsung scroll otomatis
+2. Penambahan data di list mengenai chapter terbaru, berarti melakukan matching data baru untuk data lama dan data baru (new_update_komik.json <> komik.json)
+
+Bagaimana melakukan matching data baru untuk data lama dan data baru (new_update_komik.json <> komik.json)? Buat api baru untuk mmengambil data baru min
+Misal hasil json new_update_komik.json begini matching
+[
+  {
+    "title": "Reality Quest",
+    "chapter": "Ch.154",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-24T02:36:07.967Z",
+    "updateText": "Now"
+  },
+
+dan komik.json datanya begini 
+[
+  {
+    "title": "Reality Quest",
+    "link": "https://komikcast02.com/komik/reality-quest/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/10/njsjdjaksdasbjdbjasd.jpg",
+    "chapter": "Ch.153",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-21T02:36:07.967Z",
+    "updateText": "3 hari yang lalu"
+  },
+  Hasil scraping komik selanjutnya

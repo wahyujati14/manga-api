@@ -88,7 +88,9 @@ const scrapeKomik = async () => {
   for (let i = lastPage; i < lastPage + totalPages; i++) {
     const url =
       i === 1
+        // Halaman awal
         ? "https://komikcast02.com/daftar-komik/"
+        // Halaman selanjutnya
         : `https://komikcast02.com/daftar-komik/page/${i}/`;
 
     console.log(`🔄 Scraping halaman ${i}: ${url}`);

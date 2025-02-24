@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "scrape": "pm2 start api/scrape.js --name 'scrape'",
+    "scrapeU": "pm2 start api/scrapeNewUpdate.js --name 'scrapeU'",
+    "match": "pm2 start api/matching.js --name 'match'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

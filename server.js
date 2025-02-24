@@ -9,6 +9,8 @@ puppeteer.use(StealthPlugin()); // Aktifkan stealth mode
 
 const fs = require("fs");
 // const scrapeKomik = require("./api/scrape");
+// const scrapeNewUpdate = require("./api/scrapeNewUpdate");
+// const matchAndUpdateKomik = require("./api/scrapeNewUpdate");
 const scrapeChapterImages = require("./api/scrapeChapter");
 const path = require("path");
 
@@ -30,6 +32,28 @@ app.use(express.json());
 //   }
 // });
 
+// // Endpoint ambil new data
+// app.get("/api/scrape/update", async (req, res) => {
+//   console.log("🔄 Update dimulai melalui API...");
+//   try {
+//     await scrapeNewUpdate();
+//     res.json({ message: "Update berhasil!" });
+//   } catch (error) {
+//     res.status(500).json({ error: "Gagal scraping update" });
+//   }
+// });
+
+// // Endpoint Match data
+// app.get("/api/scrape/match", async (req, res) => {
+//   console.log("🔄 Match data...");
+//   try {
+//     await matchAndUpdateKomik();
+//     res.json({ message: "Match berhasil!" });
+//   } catch (error) {
+//     res.status(500).json({ error: "Gagal Match" });
+//   }
+// });
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public/index.html"));
 });
@@ -40,6 +64,23 @@ app.get("/api/komik", (req, res) => {
 
   if (!fs.existsSync(dataFile)) {
     return res.status(404).json({ error: "Data komik belum tersedia!" });
+  }
+
+  try {
+    const data = fs.readFileSync(dataFile, "utf-8");
+    const komikList = JSON.parse(data);
+    res.json(komikList);
+  } catch (error) {
+    res.status(500).json({ error: "Gagal membaca data komik!" });
+  }
+});
+
+// Endpoint untuk mengambil daftar komik update
+app.get("/api/update", (req, res) => {
+  const dataFile = path.join(__dirname, "public/new_update_komik.json");
+
+  if (!fs.existsSync(dataFile)) {
+    return res.status(404).json({ error: "Belum ada update!" });
   }
 
   try {
