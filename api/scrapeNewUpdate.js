@@ -4,7 +4,7 @@ const path = require("path");
 
 const dataFile = "public/new_update_komik.json";
 const BASE_URL = "https://komikcast02.com/daftar-komik/";
-const MAX_PAGES = 3; // Batasi jumlah halaman untuk menghindari infinite loop
+const MAX_PAGES = 5; // Batasi jumlah halaman untuk menghindari infinite loop
 
 const scrapeNewUpdate = async () => {
   const browser = await puppeteer.launch({

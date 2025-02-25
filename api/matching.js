@@ -14,15 +14,24 @@ const matchAndUpdateKomik = () => {
   const newUpdates = JSON.parse(fs.readFileSync(newUpdateFile, "utf-8"));
   const komikList = JSON.parse(fs.readFileSync(komikFile, "utf-8"));
 
+  // Buat Map dari komikList untuk pencarian yang lebih cepat
+  const komikListMap = new Map(
+    komikList.map((komik) => [komik.title.toLowerCase().trim(), komik])
+  );
+
+  // Update komik yang sudah ada
   const updatedKomikList = komikList.map((komik) => {
     const newKomik = newUpdates.find(
-      (newData) => newData.title === komik.title
+      (newData) =>
+        newData.title.toLowerCase().trim() === komik.title.toLowerCase().trim()
     );
 
     if (newKomik) {
       // Update data lama dengan data baru
       return {
         ...komik,
+        link: newKomik.link || komik.link, // Ambil link dari newUpdates, jika tidak ada gunakan yang lama
+        img: newKomik.img || komik.img, // Ambil img dari newUpdates, jika tidak ada gunakan yang lama
         chapter: newKomik.chapter,
         lastUpdate: "Today",
         updateText: "Today",
@@ -33,18 +42,25 @@ const matchAndUpdateKomik = () => {
   });
 
   // Tambahkan komik baru yang tidak ada di komik.json
+  const addedTitles = new Set(); // Untuk melacak komik yang sudah ditambahkan
   newUpdates.forEach((newKomik) => {
-    if (!komikList.some((komik) => komik.title === newKomik.title)) {
+    const normalizedTitle = newKomik.title.toLowerCase().trim();
+
+    if (
+      !komikListMap.has(normalizedTitle) &&
+      !addedTitles.has(normalizedTitle)
+    ) {
       updatedKomikList.push({
         title: newKomik.title,
-        link: "", // Bisa diperbarui nanti
-        img: "", // Bisa diperbarui nanti
+        link: newKomik.link || "", // Ambil link dari newUpdates
+        img: newKomik.img || "", // Ambil img dari newUpdates
         chapter: newKomik.chapter,
         rating: newKomik.rating,
         type: newKomik.type,
         lastUpdate: "Today",
         updateText: "Today",
       });
+      addedTitles.add(normalizedTitle); // Tandai komik ini sudah ditambahkan
     }
   });
 

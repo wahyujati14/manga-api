@@ -1,30 +1,489 @@
 [
   {
+    "title": "The Legend of Black Fox Master of Mount Kunlun’s Sword",
+    "link": "https://komikcast02.com/komik/the-legend-of-black-fox-master-of-mount-kunluns-sword/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/01/Screenshot_20250222_174444_Chrome-e1740222036319.jpg",
+    "chapter": "Ch.20",
+    "rating": "7.20",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.694Z"
+  },
+  {
+    "title": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
+    "link": "https://komikcast02.com/komik/kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/12/kt72452623423-e1643417830456.jpg",
+    "chapter": "Ch.34",
+    "rating": "7.33",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.694Z"
+  },
+  {
+    "title": "Leveling In The Future (Apex Future Martial Arts)",
+    "link": "https://komikcast02.com/komik/leveling-in-the-future-apex-future-martial-arts/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/01/lft236234423-e1674399618951.jpg",
+    "chapter": "Ch.196",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "I Reincarnated as an SSS-Ranked Goblin",
+    "link": "https://komikcast02.com/komik/i-reincarnated-as-an-sss-ranked-goblin/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/07/ranked-goblin.jpg",
+    "chapter": "Ch.71",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "Getsuyoubi no Tawawa (Serialization)",
+    "link": "https://komikcast02.com/komik/getsuyoubi-no-tawawa-serialization/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/03/9bf54df9-75da-4e9d-8bb0-22804ad6933e-scaled-e1617929337878.jpg",
+    "chapter": "Ch.43",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "DANDADAN",
+    "link": "https://komikcast02.com/komik/dandadan/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/09/danda080922.jpg",
+    "chapter": "Ch.183",
+    "rating": "7.38",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "Exorcist no Kiyoshi-kun",
+    "link": "https://komikcast02.com/komik/exorcist-no-kiyoshi-kun/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/07/Kiyoshi-kun.webp",
+    "chapter": "Ch.30",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "SKK – Shoujo-tachi no Sekai",
+    "link": "https://komikcast02.com/komik/skk-shoujo-tachi-no-sekai/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/07/3336w65e4348.jpg",
+    "chapter": "Ch.18",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "I Pick Up Trash in the Apocalypse",
+    "link": "https://komikcast02.com/komik/i-pick-up-trash-in-the-apocalypse/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/11/Pick.jpg",
+    "chapter": "Ch.18",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "I Was Forced by the System to Become a Villain",
+    "link": "https://komikcast02.com/komik/i-was-forced-by-the-system-to-become-a-villain/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/333ew.jpg",
+    "chapter": "Ch.117",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:50.695Z"
+  },
+  {
+    "title": "Surviving as a Genius on Borrowed Time",
+    "link": "https://komikcast02.com/komik/surviving-as-a-genius-on-borrowed-time/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/borrowed.jpg",
+    "chapter": "Ch.27",
+    "rating": "7.30",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "How a Catastrophic Necromancer Retires",
+    "link": "https://komikcast02.com/komik/how-a-catastrophic-necromancer-retires/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/02/howkaneres.jpg",
+    "chapter": "Ch.02",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "The Indomitable Martial King",
+    "link": "https://komikcast02.com/komik/the-indomitable-martial-king/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/03/tim623423412123-e1711898840883.jpg",
+    "chapter": "Ch.70",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "The Heavenly Demon Can’t Live a Normal Life",
+    "link": "https://komikcast02.com/komik/the-heavenly-demon-cant-live-a-normal-life/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/07/heavenly.jpg",
+    "chapter": "Ch.146",
+    "rating": "8.55",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Auto-Hunting With Clones",
+    "link": "https://komikcast02.com/komik/auto-hunting-with-clones/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/07/auto-hunting.jpg",
+    "chapter": "Ch.132",
+    "rating": "7.55",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "The Tutorial is Too Hard",
+    "link": "https://komikcast02.com/komik/the-tutorial-is-too-hard/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/08/tth3252432-e1661675112736.jpg",
+    "chapter": "Ch.203",
+    "rating": "7.80",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Shiba-Tsuki Bukken",
+    "link": "https://komikcast02.com/komik/shiba-tsuki-bukken/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/07/st64325242-e1721649647893.jpg",
+    "chapter": "Ch.15",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Taming Master",
+    "link": "https://komikcast02.com/komik/taming-master/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/06/jkgjfksdgksdjfgs4sfgsdgsfgsd.png",
+    "chapter": "Ch.145",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Tougen Anki",
+    "link": "https://komikcast02.com/komik/tougen-anki/",
+    "img": "https://komikcast02.com/wp-content/uploads/2020/09/49754v1-e1601181584381.jpg",
+    "chapter": "Ch.144",
+    "rating": "7.65",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "My Disciples Are All Big Villains",
+    "link": "https://komikcast02.com/komik/my-disciples-are-all-big-villains/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/06/rweagrruthe5r6ujherrhjfe5sada.jpg",
+    "chapter": "Ch.339",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "That Girl Is Not Just Cute (Shikimori’s Not Just a Cutie)",
+    "link": "https://komikcast02.com/komik/that-girl-is-not-just-cute/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/11/GpMgzv.jpg",
+    "chapter": "Ch.178.3",
+    "rating": "8.37",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Ore no Kurasu ni Wakagaetta Moto Yome ga Iru",
+    "link": "https://komikcast02.com/komik/ore-no-kurasu-ni-wakagaetta-moto-yome-ga-iru/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/D42keZ.jpg",
+    "chapter": "Ch.08",
+    "rating": "8.12",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Please Bully Me, Miss Villainess!",
+    "link": "https://komikcast02.com/komik/please-bully-me-miss-villainess/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/07/szadadadw.jpg",
+    "chapter": "Ch.108",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Osanai Fusai wa Itonamitai",
+    "link": "https://komikcast02.com/komik/osanai-fusai-wa-itonamitai/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/10/ofu5324532432432-e1728918466717.jpg",
+    "chapter": "Ch.02",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Bad Born Blood",
+    "link": "https://komikcast02.com/komik/bad-born-blood/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/11/bad.jpg",
+    "chapter": "Ch.24",
+    "rating": "7.20",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "The Priest of Corruption",
+    "link": "https://komikcast02.com/komik/the-priest-of-corruption/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/06/corup2.jpg",
+    "chapter": "Ch.76",
+    "rating": "8.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Legendary Blacksmith’s Vengeance",
+    "link": "https://komikcast02.com/komik/legendary-blacksmiths-vengeance/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/09/lbv523423423-e1695879917697.jpg",
+    "chapter": "Ch.80",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "My School Life Pretending to Be a Worthless Person",
+    "link": "https://komikcast02.com/komik/my-school-life-pretending-to-be-a-worthless-person/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/08/misol170822.png",
+    "chapter": "Ch.99",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:50.696Z"
+  },
+  {
+    "title": "Sakamoto Days",
+    "link": "https://komikcast02.com/komik/sakamoto-days/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/11/sd3262342334-e1669563048913.jpg",
+    "chapter": "Ch.202",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.465Z"
+  },
+  {
+    "title": "Stellar Friend",
+    "link": "https://komikcast02.com/komik/stellar-friend/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/01/stellar-friend-498474-XEj3sPVo.jpg",
+    "chapter": "Ch.05",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.466Z"
+  },
+  {
+    "title": "Danshi dato Omotteita Osananajimi to no Shinkon Seikatsu ga Umakuiki sugiru Kudan ni Tsuite",
+    "link": "https://komikcast02.com/komik/danshi-da-to-omotteita-osananajimi-to-no-shinkon-seikatsu-ga-umakuiki-sugiru-kudan-ni-tsuite/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/10/GXZ85O.jpg",
+    "chapter": "Ch.14",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.466Z"
+  },
+  {
+    "title": "I Have 90 Billion Licking Gold",
+    "link": "https://komikcast02.com/komik/i-have-90-billion-licking-gold/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/12/90billion.jpg",
+    "chapter": "Ch.473",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:55.466Z"
+  },
+  {
+    "title": "Drug Devourer",
+    "link": "https://komikcast02.com/komik/drug-devourer/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/10/dd3273462432-e1665273792620.jpg",
+    "chapter": "Ch.113",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.466Z"
+  },
+  {
+    "title": "Dark Gathering",
+    "link": "https://komikcast02.com/komik/dark-gathering/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/09/dg124174754645235-e1630799940768.jpg",
+    "chapter": "Ch.14",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.466Z"
+  },
+  {
+    "title": "Surviving with a SSS-Rank Inventory",
+    "link": "https://komikcast02.com/komik/surviving-with-a-sss-rank-inventory/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/01/inventory.jpeg",
+    "chapter": "Ch.55",
+    "rating": "7.30",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "The Cuckoo’s Fiancee (A Couple of Cuckoos)",
+    "link": "https://komikcast02.com/komik/the-cuckoos-fiancee/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/02/D421mp.jpg",
+    "chapter": "Ch.219",
+    "rating": "8.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+    "link": "https://komikcast02.com/komik/genjitsu-shugi-yuusha-no-oukoku-saikenki/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/02/gsn623523523-e1681594747224.jpg",
+    "chapter": "Ch.55.2",
+    "rating": "7.60",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "Battle Through the Heavens",
+    "link": "https://komikcast02.com/komik/battle-through-the-heavens/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/01/Battle.jpg",
+    "chapter": "Ch.465",
+    "rating": "8.33",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "Apocalypse Sword God",
+    "link": "https://komikcast02.com/komik/apocalypse-sword-god/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/02/asg125352243-e1707553974490.jpg",
+    "chapter": "Ch.51",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "Uncle Bungeoppang",
+    "link": "https://komikcast02.com/komik/uncle-bungeoppang/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/12/67408c9ac87d0-ximahkd3-99dba2c924c265b24a3a1cb1305de72d12099423-238643-YYzsvfKF.jpg",
+    "chapter": "Ch.22",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "Unemployed Gye Baek Soon",
+    "link": "https://komikcast02.com/komik/unemployed-gye-baek-soon/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/02/daw54e4.jpg",
+    "chapter": "Ch.13",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.467Z"
+  },
+  {
+    "title": "Top Tier Providence: Secretly Cultivate for a Thousand Years",
+    "link": "https://komikcast02.com/komik/top-tier-providence-secretly-cultivate-for-a-thousand-years/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/06/totip270622.jpg",
+    "chapter": "Ch.203",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "Hazure Hantei kara Hajimatta Cheat Majutsushi Seikatsu",
+    "link": "https://komikcast02.com/komik/hazure-hantei-kara-hajimatta-cheat-majutsushi-seikatsu/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/02/z7Mmxj.jpg",
+    "chapter": "Ch.22",
+    "rating": "7.80",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "Hallym Gymnasium (Han-rim Gymnasium)",
+    "link": "https://komikcast02.com/komik/hallym-gymnasium/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/01/57791v1-e1610211154129.jpg",
+    "chapter": "Ch.217",
+    "rating": "7.25",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "Festival Of Warriors",
+    "link": "https://komikcast02.com/komik/festival-of-warriors/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/12/1734009289-3484-i470086.jpg",
+    "chapter": "Ch.16",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "Top Star Sent by God",
+    "link": "https://komikcast02.com/komik/top-star-sent-by-god/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/11/img-20241105-153448-733-765675-HPzT4gX3.jpg",
+    "chapter": "Ch.28",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "Fuun Kara no Saikyou Otoko (Unluckiness to the Strongest Man)",
+    "link": "https://komikcast02.com/komik/fuun-kara-no-saikyou-otoko/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/01/a1a37680-94ff-44a7-a968-8f2b26197687.jpg",
+    "chapter": "Ch.35",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "The Necromancer Family’s Young Heir",
+    "link": "https://komikcast02.com/komik/the-necromancer-familys-young-heir/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/02/1740364278-1573-i477931.jpg",
+    "chapter": "Ch.14",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "The Ultimate of All Ages (The Ancient Sovereign of Eternity)",
+    "link": "https://komikcast02.com/komik/the-ultimate-of-all-ages/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/06/tuag121513435-e1622565066455.jpg",
+    "chapter": "Ch.397",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "The Emperor’s Sword",
+    "link": "https://komikcast02.com/komik/the-emperors-sword/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/08/emperor.jpg",
+    "chapter": "Ch.71",
+    "rating": "7.50",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "The Crow",
+    "link": "https://komikcast02.com/komik/the-crow/",
+    "img": "https://komikcast02.com/wp-content/uploads/2025/02/tc32523432-e1739504391584.jpg",
+    "chapter": "Ch.19.1",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T01:59:55.468Z"
+  },
+  {
+    "title": "Steel-Eating Player",
+    "link": "https://komikcast02.com/komik/steel-eating-player/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/08/steel.jpg",
+    "chapter": "Ch.66",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T01:59:55.469Z"
+  },
+  {
     "title": "Yuusha Party wo Oida Sareta Kiyou Binbou",
     "link": "https://komikcast02.com/komik/yuusha-party-o-oida-sareta-kiyou-binbou/",
     "img": "https://komikcast02.com/wp-content/uploads/2025/02/D42zQW.jpg",
     "chapter": "Ch.43",
     "rating": "8.11",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.975Z"
+    "lastUpdate": "2025-02-25T01:59:55.469Z"
   },
   {
-    "title": "Kyuuseishu ~Isekai wo Sukutta Moto Yuusha ga Mamono no Afureru Genjitsu Sekai wo Musou suru~",
+    "title": "Kyuuseishu (MESHIA) ~Isekai wo Sukutta Moto Yuusha ga Mamono no Afureru Genjitsu Sekai wo Musou suru~",
     "link": "https://komikcast02.com/komik/kyuuseishu-isekai-wo-sukutta-moto-yuusha-ga-mamono-no-afureru-genjitsu-sekai-wo-musou-suru/",
     "img": "https://komikcast02.com/wp-content/uploads/2022/09/tsm235234224-e1664186975329.jpg",
     "chapter": "Ch.44",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.976Z"
-  },
-  {
-    "title": "Shiba-Tsuki Bukken",
-    "link": "https://komikcast02.com/komik/shiba-tsuki-bukken/",
-    "img": "https://komikcast02.com/wp-content/uploads/2024/07/st64325242-e1721649647893.jpg",
-    "chapter": "Ch.14",
-    "rating": "7.00",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.976Z"
+    "lastUpdate": "2025-02-25T01:59:55.469Z"
   },
   {
     "title": "Nageki no Bourei wa Intai Shitai – Saijiyaku Hanta ni Yoru Saikiyou Patei Ikusei Jutsu",
@@ -33,7 +492,7 @@
     "chapter": "Ch.53",
     "rating": "7.55",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.976Z"
+    "lastUpdate": "2025-02-25T01:59:55.469Z"
   },
   {
     "title": "Entomologist in Sichuan Tang Clan",
@@ -42,7 +501,7 @@
     "chapter": "Ch.24",
     "rating": "7.56",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T01:59:55.470Z"
   },
   {
     "title": "My Insanely Competent Underlings",
@@ -51,7 +510,7 @@
     "chapter": "Ch.81",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.359Z"
   },
   {
     "title": "Lanke Special Destiny",
@@ -60,7 +519,7 @@
     "chapter": "Ch.149",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.359Z"
   },
   {
     "title": "Keep A Low Profile, Sect Leader",
@@ -69,7 +528,7 @@
     "chapter": "Ch.468",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.359Z"
   },
   {
     "title": "Invincible Territory",
@@ -78,7 +537,7 @@
     "chapter": "Ch.46",
     "rating": "7.20",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.359Z"
   },
   {
     "title": "I’m Being Misunderstood as a Soccer Genius",
@@ -87,7 +546,7 @@
     "chapter": "Ch.15",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.360Z"
   },
   {
     "title": "I Transmigrated Into Demon King Of Harem?",
@@ -96,7 +555,7 @@
     "chapter": "Ch.59",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.360Z"
   },
   {
     "title": "I Robbed The Storehouse Of The God",
@@ -105,7 +564,7 @@
     "chapter": "Ch.45",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.360Z"
   },
   {
     "title": "I am Self-disciplined And Invincible",
@@ -114,16 +573,7 @@
     "chapter": "Ch.93",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
-  },
-  {
-    "title": "How a Catastrophic Necromancer Retires",
-    "link": "https://komikcast02.com/komik/how-a-catastrophic-necromancer-retires/",
-    "img": "https://komikcast02.com/wp-content/uploads/2025/02/howkaneres.jpg",
-    "chapter": "Ch.01",
-    "rating": "7.00",
-    "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.360Z"
   },
   {
     "title": "Genius Mage Who Uses Fists",
@@ -132,7 +582,7 @@
     "chapter": "Ch.01",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.361Z"
   },
   {
     "title": "Netorare Manga no Kuzu Otoko ni Tensei Shita Hazu ga Heroine ga Yottekuru Ken",
@@ -141,7 +591,7 @@
     "chapter": "Ch.17",
     "rating": "8.53",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
+    "lastUpdate": "2025-02-25T02:00:00.361Z"
   },
   {
     "title": "Warrior Grandpa and Supreme Granddaughter",
@@ -150,16 +600,7 @@
     "chapter": "Ch.81",
     "rating": "7..00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.977Z"
-  },
-  {
-    "title": "Fuun Kara no Saikyou Otoko (Unluckiness to the Strongest Man)",
-    "link": "https://komikcast02.com/komik/fuun-kara-no-saikyou-otoko/",
-    "img": "https://komikcast02.com/wp-content/uploads/2023/01/a1a37680-94ff-44a7-a968-8f2b26197687.jpg",
-    "chapter": "Ch.33",
-    "rating": "7.00",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.361Z"
   },
   {
     "title": "Frozen Frontiers (Arctic Cold War)",
@@ -168,7 +609,7 @@
     "chapter": "Ch.32",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.362Z"
   },
   {
     "title": "Evolution from Carp to Divine Dragon",
@@ -177,7 +618,7 @@
     "chapter": "Ch.41",
     "rating": "7.20",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.362Z"
   },
   {
     "title": "Evolution Begins With A Big Tree",
@@ -186,7 +627,7 @@
     "chapter": "Ch.335",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.362Z"
   },
   {
     "title": "Drama Queen",
@@ -195,7 +636,7 @@
     "chapter": "Ch.09",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.362Z"
   },
   {
     "title": "Domestication of Divine Beasts at the Beginning",
@@ -204,7 +645,7 @@
     "chapter": "Ch.18",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.362Z"
   },
   {
     "title": "Childhood Friend Of The Zenith",
@@ -213,7 +654,7 @@
     "chapter": "Ch.51",
     "rating": "7.50",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.362Z"
   },
   {
     "title": "A Transmigrated Warden’s Battle for Redemption",
@@ -222,7 +663,7 @@
     "chapter": "Ch.61",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.363Z"
   },
   {
     "title": "Tensei shitara Dragon no Tamago datta: Saikyou Igai Mezasanee",
@@ -231,7 +672,7 @@
     "chapter": "Ch.32",
     "rating": "8.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.363Z"
   },
   {
     "title": "Boundless Necromancer",
@@ -240,7 +681,7 @@
     "chapter": "Ch.125",
     "rating": "7.90",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.363Z"
   },
   {
     "title": "Live Dungeon!",
@@ -249,7 +690,7 @@
     "chapter": "Ch.65",
     "rating": "7.80",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:21:59.978Z"
+    "lastUpdate": "2025-02-25T02:00:00.363Z"
   },
   {
     "title": "Goinkyo Maou-sama no Kaerizaki",
@@ -258,7 +699,7 @@
     "chapter": "Ch.40",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.363Z"
   },
   {
     "title": "Magan no Akuyaku ni Tensei Shita no de Oshi Chara o Mimamoru Mob o Mezashimasu",
@@ -267,7 +708,7 @@
     "chapter": "Ch.05.2",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.363Z"
   },
   {
     "title": "Kesa Mo Yuraretemasu",
@@ -276,7 +717,7 @@
     "chapter": "Ch.16",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.364Z"
   },
   {
     "title": "Kaminaki Sekai no Kamisama Katsudou",
@@ -285,7 +726,7 @@
     "chapter": "Ch.60",
     "rating": "7.22",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.364Z"
   },
   {
     "title": "The Apex of Dragon Mastery",
@@ -294,7 +735,7 @@
     "chapter": "Ch.77",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.364Z"
   },
   {
     "title": "The World’s Best Kunlun Tavern",
@@ -303,7 +744,7 @@
     "chapter": "Ch.03",
     "rating": "7.45",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.364Z"
   },
   {
     "title": "Mato Seihei no Slave",
@@ -312,7 +753,7 @@
     "chapter": "Ch.150",
     "rating": "7.99",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:00.364Z"
   },
   {
     "title": "Youngest Son of the NamGung Clan",
@@ -321,7 +762,7 @@
     "chapter": "Ch.69",
     "rating": "7.99",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.222Z"
   },
   {
     "title": "Return of the Frozen Player",
@@ -330,7 +771,7 @@
     "chapter": "Ch.145",
     "rating": "8.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.222Z"
   },
   {
     "title": "Senpai, Chotto ii Desu ka?",
@@ -339,7 +780,7 @@
     "chapter": "Ch.06.5",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.222Z"
   },
   {
     "title": "Takamori-kun wo Damarasetai!!",
@@ -348,7 +789,7 @@
     "chapter": "Ch.08.5",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.222Z"
   },
   {
     "title": "Kusunoki-san wa Koukou Debut ni Shippai shite Iru",
@@ -357,25 +798,25 @@
     "chapter": "Ch.28",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.222Z"
   },
   {
-    "title": "I Reincarnated as an SSS-Ranked Goblin",
-    "link": "https://komikcast02.com/komik/i-reincarnated-as-an-sss-ranked-goblin/",
-    "img": "https://komikcast02.com/wp-content/uploads/2023/07/ranked-goblin.jpg",
-    "chapter": "Ch.70",
-    "rating": "7.00",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "title": "Cang Yuantu (Azure Legacy)",
+    "link": "https://komikcast02.com/komik/cang-yuantu/",
+    "img": "https://komikcast02.com/wp-content/uploads/2021/06/lkdlakda-e1624675156641.jpg",
+    "chapter": "Ch.302",
+    "rating": "7.88",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T02:00:05.222Z"
   },
   {
-    "title": "Getsuyoubi no Tawawa (Serialization)",
-    "link": "https://komikcast02.com/komik/getsuyoubi-no-tawawa-serialization/",
-    "img": "https://komikcast02.com/wp-content/uploads/2021/03/9bf54df9-75da-4e9d-8bb0-22804ad6933e-scaled-e1617929337878.jpg",
-    "chapter": "Ch.42",
-    "rating": "7.00",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "title": "The Evil God Descends, I Own Great Hell",
+    "link": "https://komikcast02.com/komik/the-evil-god-descends-i-own-great-hell/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/punya_manhua_yahaha.jpg",
+    "chapter": "Ch.31",
+    "rating": "7.56",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "Koudou ni Hattatsu Shita Igaku wa Mahou to Kubetsu ga Tsukanai",
@@ -384,7 +825,7 @@
     "chapter": "Ch.16",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "Kagurabachi",
@@ -393,7 +834,7 @@
     "chapter": "Ch.69",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "Demon God of Apocalyptic Behemoth",
@@ -402,7 +843,7 @@
     "chapter": "Ch.20",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "Gwichonri",
@@ -411,7 +852,7 @@
     "chapter": "Ch.53",
     "rating": "7.20",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.032Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "The Barbarian of Seoul Station",
@@ -420,7 +861,7 @@
     "chapter": "Ch.22",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "Rebirth of a Dark Mage: Unveiling a Zombie Planet from the Start",
@@ -429,7 +870,7 @@
     "chapter": "Ch.27",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "Traveling Through Time and Space to Become an Unlucky NPC: I Have a Wife to Protect Me",
@@ -438,7 +879,7 @@
     "chapter": "Ch.83",
     "rating": "7.20",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "The Veteran Healer Is Overpowered",
@@ -447,7 +888,7 @@
     "chapter": "Ch.24",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "A Dragonslayer’s Peerless Regression",
@@ -456,7 +897,7 @@
     "chapter": "Ch.28",
     "rating": "8.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "All Hail the Sect Leader",
@@ -465,7 +906,7 @@
     "chapter": "Ch.400",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.223Z"
   },
   {
     "title": "The Regressed Son of a Duke is an Assassin",
@@ -474,7 +915,7 @@
     "chapter": "Ch.63",
     "rating": "8.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.224Z"
   },
   {
     "title": "Revenge of the Iron-Blooded Sword Hound",
@@ -483,7 +924,7 @@
     "chapter": "Ch.101",
     "rating": "8.50",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.224Z"
   },
   {
     "title": "Tales of A Shinning Sword",
@@ -492,7 +933,7 @@
     "chapter": "Ch.98",
     "rating": "7.0",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.225Z"
   },
   {
     "title": "Reincarnated as a Genius Prodigy of a Prestigious Family",
@@ -501,7 +942,7 @@
     "chapter": "Ch.38",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:05.033Z"
+    "lastUpdate": "2025-02-25T02:00:05.225Z"
   },
   {
     "title": "Am I Invincible",
@@ -510,7 +951,7 @@
     "chapter": "Ch.255",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:10.158Z"
+    "lastUpdate": "2025-02-25T02:00:05.225Z"
   },
   {
     "title": "Holy Emperor’s Grandson is a Necromancer",
@@ -519,7 +960,7 @@
     "chapter": "Ch.74",
     "rating": "8.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:05.225Z"
   },
   {
     "title": "Player Who Can’t Level Up",
@@ -528,7 +969,7 @@
     "chapter": "Ch.179",
     "rating": "7.50",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:05.225Z"
   },
   {
     "title": "A Genius Writer’s Random Workplace (Genius Artist’s Random Studio)",
@@ -537,7 +978,7 @@
     "chapter": "Ch.81",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:05.226Z"
   },
   {
     "title": "White Dragon Duke: Pendragon",
@@ -546,16 +987,7 @@
     "chapter": "Ch.124",
     "rating": "8.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
-  },
-  {
-    "title": "The Tutorial is Too Hard",
-    "link": "https://komikcast02.com/komik/the-tutorial-is-too-hard/",
-    "img": "https://komikcast02.com/wp-content/uploads/2022/08/tth3252432-e1661675112736.jpg",
-    "chapter": "Ch.202",
-    "rating": "7.80",
-    "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:05.226Z"
   },
   {
     "title": "Reborn as The Heavenly Demon",
@@ -564,16 +996,7 @@
     "chapter": "Ch.57",
     "rating": "7.80",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
-  },
-  {
-    "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
-    "link": "https://komikcast02.com/komik/genjitsu-shugi-yuusha-no-oukoku-saikenki/",
-    "img": "https://komikcast02.com/wp-content/uploads/2023/02/gsn623523523-e1681594747224.jpg",
-    "chapter": "Ch.55.1",
-    "rating": "7.60",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:05.226Z"
   },
   {
     "title": "Savior of Divine Blood ~Draw Out 0.00000001% to Become the Strongest~",
@@ -582,7 +1005,7 @@
     "chapter": "Ch.74",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:05.226Z"
   },
   {
     "title": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai (My Charms Are Wasted On Kuroiwa Medaka)",
@@ -591,7 +1014,7 @@
     "chapter": "Ch.167",
     "rating": "7.89",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:11.021Z"
   },
   {
     "title": "Oh! Dangun",
@@ -600,7 +1023,7 @@
     "chapter": "Ch.57",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:11.021Z"
   },
   {
     "title": "Soshiki no Shukuteki to Kekkon Shitara Mecha Amai",
@@ -609,16 +1032,7 @@
     "chapter": "Ch.03",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
-  },
-  {
-    "title": "My School Life Pretending to Be a Worthless Person",
-    "link": "https://komikcast02.com/komik/my-school-life-pretending-to-be-a-worthless-person/",
-    "img": "https://komikcast02.com/wp-content/uploads/2022/08/misol170822.png",
-    "chapter": "Ch.98",
-    "rating": "7.00",
-    "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:11.021Z"
   },
   {
     "title": "I’m a Max Level Regressor",
@@ -627,16 +1041,7 @@
     "chapter": "Ch.23",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
-  },
-  {
-    "title": "The Legend of Black Fox Master of Mount Kunlun’s Sword",
-    "link": "https://komikcast02.com/komik/the-legend-of-black-fox-master-of-mount-kunluns-sword/",
-    "img": "https://komikcast02.com/wp-content/uploads/2025/01/Screenshot_20250222_174444_Chrome-e1740222036319.jpg",
-    "chapter": "Ch.16",
-    "rating": "7.20",
-    "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:11.021Z"
   },
   {
     "title": "Kanojo, Okarishimasu",
@@ -645,16 +1050,7 @@
     "chapter": "Ch.354",
     "rating": "8.30",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
-  },
-  {
-    "title": "Drug Devourer",
-    "link": "https://komikcast02.com/komik/drug-devourer/",
-    "img": "https://komikcast02.com/wp-content/uploads/2022/10/dd3273462432-e1665273792620.jpg",
-    "chapter": "Ch.112",
-    "rating": "7.00",
-    "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:11.021Z"
   },
   {
     "title": "Humble System, Kneel and Beg Me to Be Invincible",
@@ -663,7 +1059,7 @@
     "chapter": "Ch.40",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
   },
   {
     "title": "I Randomly Have A New Career Every Week",
@@ -672,16 +1068,7 @@
     "chapter": "Ch.451",
     "rating": "7.00",
     "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:10.159Z"
-  },
-  {
-    "title": "The Cuckoo’s Fiancee (A Couple of Cuckoos)",
-    "link": "https://komikcast02.com/komik/the-cuckoos-fiancee/",
-    "img": "https://komikcast02.com/wp-content/uploads/2025/02/D421mp.jpg",
-    "chapter": "Ch.217",
-    "rating": "8.00",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
   },
   {
     "title": "The Frostbound Warrior",
@@ -690,7 +1077,7 @@
     "chapter": "Ch.07",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
   },
   {
     "title": "Guard Pass",
@@ -699,7 +1086,7 @@
     "chapter": "Ch.174",
     "rating": "7.00",
     "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
   },
   {
     "title": "Ore ga Kokuhaku Saretekara, Ojo no yosu ga Okashii",
@@ -708,25 +1095,7 @@
     "chapter": "Ch.04.3",
     "rating": "7.59",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
-  },
-  {
-    "title": "Apocalypse Sword God",
-    "link": "https://komikcast02.com/komik/apocalypse-sword-god/",
-    "img": "https://komikcast02.com/wp-content/uploads/2024/02/asg125352243-e1707553974490.jpg",
-    "chapter": "Ch.50",
-    "rating": "7.00",
-    "type": "MANHUA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
-  },
-  {
-    "title": "Hazure Hantei kara Hajimatta Cheat Majutsushi Seikatsu",
-    "link": "https://komikcast02.com/komik/hazure-hantei-kara-hajimatta-cheat-majutsushi-seikatsu/",
-    "img": "https://komikcast02.com/wp-content/uploads/2025/02/z7Mmxj.jpg",
-    "chapter": "Ch.21",
-    "rating": "7.80",
-    "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
   },
   {
     "title": "Out (Mizuta Makoto)",
@@ -735,16 +1104,7 @@
     "chapter": "Ch.97",
     "rating": "7.33",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
-  },
-  {
-    "title": "Surviving with a SSS-Rank Inventory",
-    "link": "https://komikcast02.com/komik/surviving-with-a-sss-rank-inventory/",
-    "img": "https://komikcast02.com/wp-content/uploads/2024/01/inventory.jpeg",
-    "chapter": "Ch.54",
-    "rating": "7.30",
-    "type": "MANHWA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
   },
   {
     "title": "Ore dake Fuguu Skill no Isekai Shoukan Hangyakuki",
@@ -753,6 +1113,150 @@
     "chapter": "Ch.100",
     "rating": "7.00",
     "type": "MANGA",
-    "lastUpdate": "2025-02-24T06:22:10.160Z"
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
+  },
+  {
+    "title": "Kajiya de Hajimeru Isekai Slow Life",
+    "link": "https://komikcast02.com/komik/kajiya-de-hajimeru-isekai-slow-life/",
+    "img": "https://komikcast02.com/wp-content/uploads/2020/12/51043-e1607137526455.jpg",
+    "chapter": "Ch.21",
+    "rating": "7.32",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
+  },
+  {
+    "title": "Mokushiroku no Yonkishi",
+    "link": "https://komikcast02.com/komik/mokushiroku-no-yonkishi/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/12/yonkishi.jpg",
+    "chapter": "Ch.176",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
+  },
+  {
+    "title": "Mairimashita! Iruma-kun: If Episode of Mafia",
+    "link": "https://komikcast02.com/komik/mairimashita-iruma-kun-if-episode-of-mafia/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/mmaf6253432-e1726320344459.jpg",
+    "chapter": "Ch.15",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T02:00:11.022Z"
+  },
+  {
+    "title": "Mairimashita! Iruma-kun",
+    "link": "https://komikcast02.com/komik/mairimashita-iruma-kun/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/02/mi623423423-e1676206946129.jpg",
+    "chapter": "Ch.376",
+    "rating": "7.59",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "The Game’s Top Troll (The Game’s Greatest Troll)",
+    "link": "https://komikcast02.com/komik/the-games-top-troll/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/07/tgt62341232-e1688915339163.jpg",
+    "chapter": "Ch.123",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "Drama Writer Who Reads Spoilers",
+    "link": "https://komikcast02.com/komik/drama-writer-who-reads-spoilers/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/09/dww523423423-e1693635788544.jpg",
+    "chapter": "Ch.38",
+    "rating": "7.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "Rebirth Of The Urban Immortal Cultivator",
+    "link": "https://komikcast02.com/komik/rebirth-of-the-urban-immortal-cultivator/",
+    "img": "https://komikcast02.com/wp-content/uploads/2022/07/rotu762352323-e1656913062334.jpg",
+    "chapter": "Ch.1029",
+    "rating": "8.22",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "Wolf Falls in Love with Moon",
+    "link": "https://komikcast02.com/komik/wolf-falls-in-love-with-moon/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/10/wfp325432432-e1728906896691.jpg",
+    "chapter": "Ch.16",
+    "rating": "7.00",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "Dungeon Defense",
+    "link": "https://komikcast02.com/komik/dungeon-defense/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/dungeon_defense_f2.jpg",
+    "chapter": "Ch.47 End S1",
+    "rating": "8.43",
+    "type": "MANGA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "Song Baek",
+    "link": "https://komikcast02.com/komik/song-baek/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/09/song_baek_kc.jpg",
+    "chapter": "Ch.35",
+    "rating": "7.80",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.023Z"
+  },
+  {
+    "title": "Rookie but One-In-A-Million Actor",
+    "link": "https://komikcast02.com/komik/rookie-but-one-in-a-million-actor/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/04/rkb624523432423-e1714033347647.jpg",
+    "chapter": "Ch.53",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.024Z"
+  },
+  {
+    "title": "Magic Emperor",
+    "link": "https://komikcast02.com/komik/magic-emperor/",
+    "img": "https://komikcast02.com/wp-content/uploads/2019/10/magic-emperor.jpg",
+    "chapter": "Ch.666",
+    "rating": "8.00",
+    "type": "MANHUA",
+    "lastUpdate": "2025-02-25T02:00:11.024Z"
+  },
+  {
+    "title": "Academy’s Genius Swordmaster",
+    "link": "https://komikcast02.com/komik/academys-genius-swordmaster/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/07/academy.jpg",
+    "chapter": "Ch.89",
+    "rating": "8.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.024Z"
+  },
+  {
+    "title": "Return of The Greatest Lancer",
+    "link": "https://komikcast02.com/komik/return-of-the-greatest-lancer/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/06/lancer.jpeg",
+    "chapter": "Ch.164",
+    "rating": "8.01",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.024Z"
+  },
+  {
+    "title": "Disciple of the Three Kings",
+    "link": "https://komikcast02.com/komik/disciple-of-the-three-kings/",
+    "img": "https://komikcast02.com/wp-content/uploads/2024/12/king.jpg",
+    "chapter": "Ch.19",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.024Z"
+  },
+  {
+    "title": "Regressing with the Kings Power",
+    "link": "https://komikcast02.com/komik/regressing-with-the-kings-power/",
+    "img": "https://komikcast02.com/wp-content/uploads/2023/11/king.jpg",
+    "chapter": "Ch.79",
+    "rating": "7.00",
+    "type": "MANHWA",
+    "lastUpdate": "2025-02-25T02:00:11.024Z"
   }
 ]
